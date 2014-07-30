@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S-EMR", "S-EMR\S-EMR.csproj", "{075191F4-3061-4511-AB77-DF1A951DAC36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Debug|iPhone.Build.0 = Debug|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Release|iPhone.ActiveCfg = Release|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Release|iPhone.Build.0 = Release|iPhone
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{075191F4-3061-4511-AB77-DF1A951DAC36}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = S-EMR\S-EMR.csproj
+	EndGlobalSection
+EndGlobal
