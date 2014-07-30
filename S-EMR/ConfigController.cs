@@ -22,7 +22,10 @@ namespace SEMR
 				Settings.ServerURL=ServerURLTxt.Text;
 
 			};
-				}
+			ServerURLTxt.EditingDidEndOnExit += (sender, e) => {
+				ResignFirstResponder ();
+			};
+		}
 
 	}
 }

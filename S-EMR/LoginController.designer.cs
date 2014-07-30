@@ -16,13 +16,37 @@ namespace SEMR
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		MonoTouch.UIKit.UIButton LoginBtn { get; set; }
+		UIControl BackgroudView { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton LoginBtn { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITextField PasswordTxt { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITextField UserTxt { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (BackgroudView != null) {
+				BackgroudView.Dispose ();
+				BackgroudView = null;
+			}
 			if (LoginBtn != null) {
 				LoginBtn.Dispose ();
 				LoginBtn = null;
+			}
+			if (PasswordTxt != null) {
+				PasswordTxt.Dispose ();
+				PasswordTxt = null;
+			}
+			if (UserTxt != null) {
+				UserTxt.Dispose ();
+				UserTxt = null;
 			}
 		}
 	}
