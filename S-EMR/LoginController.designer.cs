@@ -16,19 +16,19 @@ namespace SEMR
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIControl BackgroudView { get; set; }
+		MonoTouch.UIKit.UIControl BackgroudView { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton LoginBtn { get; set; }
+		MonoTouch.UIKit.UIButton LoginBtn { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField PasswordTxt { get; set; }
+		MonoTouch.UIKit.UITextField PasswordTxt { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField UserTxt { get; set; }
+		MonoTouch.UIKit.UITextField UserTxt { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

@@ -16,7 +16,7 @@ namespace SEMR
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextField ServerURLTxt { get; set; }
+		MonoTouch.UIKit.UITextField ServerURLTxt { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

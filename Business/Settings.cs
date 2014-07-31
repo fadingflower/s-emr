@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SEMR
+namespace SEMR.Business
 {
 	public class Settings
 	{

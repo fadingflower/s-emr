@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S-EMR", "S-EMR\S-EMR.csproj", "{075191F4-3061-4511-AB77-DF1A951DAC36}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Business", "Business\Business.shproj", "{0F66EB20-C877-4C72-9C22-4C086803F23E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

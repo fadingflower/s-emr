@@ -18,11 +18,19 @@ namespace SEMR
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton LNoteButton { get; set; }
 
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton TestButton { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (LNoteButton != null) {
 				LNoteButton.Dispose ();
 				LNoteButton = null;
+			}
+			if (TestButton != null) {
+				TestButton.Dispose ();
+				TestButton = null;
 			}
 		}
 	}

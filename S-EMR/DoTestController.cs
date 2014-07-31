@@ -2,6 +2,7 @@ using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using System.CodeDom.Compiler;
+using SEMR.Business.DataTables;
 
 namespace SEMR
 {
@@ -27,6 +28,13 @@ namespace SEMR
 				UIAlertView alert = new UIAlertView ("S-EMR", "Notification has been pushed", null, "OK", null);
 				alert.Show();
 			};
+			TestButton.TouchUpInside += (sender, e) => {
+				SEMR.Business.DataTables.AuthenticateCredentialDataTable table = new AuthenticateCredentialDataTable ();
+				UIAlertView view = new UIAlertView ("S-EMR", table.Columns [0].Caption, null, "OK", null);
+				view.Show();
+			};
+
+			;
 
 
 		}
